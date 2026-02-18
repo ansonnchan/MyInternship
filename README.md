@@ -7,6 +7,13 @@ MyInternship is a full-stack web app that helps students track internship applic
 - Backend (Render): [https://internship-tracker-xo8m.onrender.com](https://internship-tracker-xo8m.onrender.com)
 - API Health: [https://internship-tracker-xo8m.onrender.com/api/health](https://internship-tracker-xo8m.onrender.com/api/health)
 
+  
+> **Note on cold starts:**  
+The backend is deployed on Render’s **free tier**, which may spin down during inactivity.  
+As a result, the **first login or signup request may take ~30–60 seconds** while the server cold-starts.  
+Subsequent requests should be fast once the backend is active.
+---
+
 ## Product Preview 
 
 ### Signup Page
